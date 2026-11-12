@@ -67,11 +67,11 @@ function App() {
                                 className="hero-primary"
                                 onClick={() => setShowDashboard(true)}
                             >
-                                Explore demo ↗︎
+                                Explore Dashboard ↗
                             </button>
 
                             <a href="#features" className="hero-secondary">
-                                Explore Dashboard ↗︎
+                                Discover features ↓
                             </a>
                         </div>
 

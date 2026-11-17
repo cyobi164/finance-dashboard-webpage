@@ -444,3 +444,10 @@ button {
     padding: 25px 22px;
   }
 }
+
+/* Hide decorative arrows on mobile */
+@media (max-width: 768px) {
+  .desktop-arrow {
+    display: none;
+  }
+}

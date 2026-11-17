@@ -38,7 +38,7 @@ function App() {
                     className="nav-cta"
                     onClick={() => setShowDashboard(true)}
                 >
-                 Explore demo ↗
+                 Explore demo <span className="desktop-arrow">↗</span>
                 </button>
             </nav>
 
@@ -124,7 +124,7 @@ function App() {
 
                     <div className="features-grid">
                         <article className="features-card">
-                            <span className="fratures-icon">↗</span>
+                            <span className="desktop-arrow">↗</span>
                             <h3>Track Transactions</h3>
                             <p>
                                 Keep track of your income and expenses

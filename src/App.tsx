@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { TrendingUp, ReceiptText } from "lucide-react";
 import DashboardPreview from "./DashboardPreview";
 import "./App.css";
 
@@ -87,7 +88,10 @@ function App() {
                             <div className="visual-balance">
                                 <span>Total Balance</span>
                                 <strong>¥1,000,000</strong>
-                                <small>↗ 8.2% this month</small>
+                                <div className="balance-growth">
+                                    <TrendingUp size={14} strokeWidth={2.5} />
+                                    <span>8.2% this month</span>
+                                </div>
                             </div>
 
                             {/*income*/}
@@ -124,7 +128,9 @@ function App() {
 
                     <div className="features-grid">
                         <article className="features-card">
-                            <span className="desktop-arrow">↗</span>
+                            <div className="features-icon">
+                                <ReceiptText size={23} strokeWidth={1.8} />
+                            </div>
                             <h3>Track Transactions</h3>
                             <p>
                                 Keep track of your income and expenses
